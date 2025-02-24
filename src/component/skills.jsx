@@ -22,13 +22,13 @@ export default function Skills() {
         <p className='font-bold text-5xl text-center'>SKILLS</p>
       <p className='mt-10'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt optio deserunt necessitatibus. Ut facere ab voluptatem sit nihil aliquid nisi exercitationem quidem laborum fugiat cupiditate nobis blanditiis, et ipsam cumque?</p>
       <div className='mt-10 flex'>
-        <p className='text-2xl font-bold inline p-5 '>HTML</p><input type='range'value='90' className='inline'/> <p className='inline'><CountUp start={0} end={90} duration={5}/>%</p>
+        <p className='text-2xl font-bold inline p-5 '>HTML</p><input type='range'value='100' className='inline'/> <p className='inline'><CountUp start={0} end={100} duration={5}/>%</p>
       </div>
       <div className='mt-5'>
-        <p className='text-2xl font-bold inline p-5 '>CSS</p><input type='range'value='90' className='inline'/> <p className='inline'><CountUp start={0} end={90} duration={5}/>%</p>
+        <p className='text-2xl font-bold inline p-5 '>CSS</p><input type='range'value='100' className='inline'/> <p className='inline'><CountUp start={0} end={100} duration={5}/>%</p>
       </div>
       <div className='mt-5'>
-        <p className='text-2xl font-bold inline p-5'>JAVASCRIPT</p><input type='range'value='90' className='inline'/> <p className='inline'><CountUp start={0} end={90} duration={5}/>%</p>
+        <p className='text-2xl font-bold inline p-5'>JAVASCRIPT</p><input type='range'value='100' className='inline'/> <p className='inline'><CountUp start={0} end={100} duration={5}/>%</p>
       </div>
       <div className='mt-5'>
         <p className='text-2xl font-bold inline p-5'>REACT</p><input type='range'value='90' className='inline'/> <p className='inline'><CountUp start={0} end={90} duration={5}/>%</p>
