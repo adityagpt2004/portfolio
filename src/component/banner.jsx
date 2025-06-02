@@ -1,6 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed';
 import { motion,} from "framer-motion";
+import { Typewriter } from 'react-simple-typewriter';
 
 
 export default function Banner() {
@@ -18,10 +19,16 @@ export default function Banner() {
          animate={{transform: "translateX(0px)" }}
          transition={{ type: "spring", stiffness: 100 }}
         className='md:text-6xl font-bold text-[40px]'>ADITYA GUPTA</motion.div>
-        <div className='md:text-4xl font-bold text-[20px]'><Typed
-          strings={['I Am a developer!!']}
-          typeSpeed={40}
-        /></div>
+        <div className='md:text-4xl font-bold text-[20px]'><h1>
+      I am a&nbsp;
+      <Typed
+        strings={['Developer', 'Designer', 'Engineer']}
+        typeSpeed={40}
+        backSpeed={50}
+        loop
+      />
+    </h1>
+</div>
 
       </div>
 

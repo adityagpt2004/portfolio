@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import React, { Component } from 'react'
+import { Typewriter } from 'react-simple-typewriter';
 import Header from './component/header'
 import Banner from './component/banner'
 import About from './component/about'
@@ -19,7 +20,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-
+{/* <Typewriter/> */}
         <Router>
           <Header />
           <Sidebar/>
